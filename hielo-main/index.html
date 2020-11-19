@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Hielo by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="animate.css">
+		<style type="text/css">
+			
+			.hidden {
+				display: none;
+			}
+			.collapse {
+				background-color: #fff;
+				padding: 3rem;
+				display: none;
+			}
+			.uncollapse {
+				background-color: #fff;
+				padding: 3rem;
+				display: inline-block;
+
+			}
+			.flex-main {
+				display: flex;
+				justify-content: space-between;
+			}
+			.collapse-img img {
+				width: 100%;
+			}
+			.collapse-img, .collapse-disc {
+				width: 48%;
+			}
+			.menu {
+				transform: translateX(20rem);
+				transition: 0.35s;
+				visibility: hidden;
+
+			}
+			.menutoggle {
+				transform: translateX(0rem);
+				visibility: visible;
+				transition: 0.35s;
+			}
+
+			.show {
+				visibility: visible;
+				color: #7d7d7d;
+				font-size: 24px;
+				
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				padding: 9px;
+			}
+			.fa:hover {
+				color: white;
+			}
+			.popup{
+
+			}
+			.background{
+
+			}
+			.popup1 {
+			background-color: white;
+			width: 60%;
+			text-align: center;
+			position: fixed;
+			top: 20%;
+			left:calc(50% - 30%);
+			z-index: 8888888;
+			height: 64%;
+			padding: 10px;
+			
+			}
+			.popup1 img {
+			background-color: white;
+			width: 60%;
+			text-align: center;
+			position: fixed;
+			top: 20%;
+			left:calc(50% - 30%);
+			z-index: 8888888;
+			height: 64%;
+			padding: 18px;
+			
+
+			
+			}
+			.background1{
+			background-color: black;
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 888888;
+			opacity: 0.7;
+			}
+
+
+		
+		</style>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">Hielo <span>by TEMPLATED</span></a></div>
+				<a href="#menu" id="menu-toggle" data-menu="menu" data-icon="close-menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu" class="menu">
+				<div id="close-menu" data-menu="menu" data-icon="close-menu">
+					<i class="fa fa-times" aria-hidden="true"></i>
+				</div>
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+
+			</nav>
+
+		<!-- Banner -->
+			<section class="banner full">
+				<article>
+					<img src="images/slide01.jpg" alt="" />
+					<div class="inner">
+						<header>
+							<p>A free responsive web site template by <a href="https://templated.co">TEMPLATED</a></p>
+							<h2>Hielo</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide02.jpg" alt="" />
+					<div class="inner">
+						<header>
+							<p>Lorem ipsum dolor sit amet nullam feugiat</p>
+							<h2>Magna etiam</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide03.jpg"  alt="" />
+					<div class="inner">
+						<header>
+							<p>Sed cursus aliuam veroeros lorem ipsum nullam</p>
+							<h2>Tempus dolor</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide04.jpg"  alt="" />
+					<div class="inner">
+						<header>
+							<p>Adipiscing lorem ipsum feugiat sed phasellus consequat</p>
+							<h2>Etiam feugiat</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide05.jpg"  alt="" />
+					<div class="inner">
+						<header>
+							<p>Ipsum dolor sed magna veroeros lorem ipsum</p>
+							<h2>Lorem adipiscing</h2>
+						</header>
+					</div>
+				</article>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style2">
+				<div class="inner">
+					<div class="grid-style">
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/pic02.jpg" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>maecenas sapien feugiat ex purus</p>
+										<h2>Lorem ipsum dolor</h2>
+									</header>
+									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.</p>
+									<footer class="align-center">
+										<a class="button alt" id="collapse-link-1" data-toggle="collapse-1">Learn More</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/pic03.jpg" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>mattis elementum sapien pretium tellus</p>
+										<h2>Vestibulum sit amet</h2>
+									</header>
+									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.</p>
+									<footer class="align-center">
+										<a class="button alt" id="collapse-link-2" data-toggle="collapse-2">Learn More</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="collapse" id="collapse-1">
+						<h2>Lorem ipsum dolor</h2>
+						<div class="flex-main">
+							<div class="collapse-img">
+								<img src="images/pic02.jpg">
+							</div>
+							<div class="collapse-disc">
+								Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.
+								Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.
+								Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.aliquet urna ut sapien tincidunt, quis malesuada elit facilisis
+							</div>
+						</div>
+					</div>
+					<div class="collapse" id="collapse-2">
+						<h2>Vestibulum sit amet</h2>
+						<div class="flex-main">
+							<div class="collapse-img">
+								<img src="images/pic03.jpg">
+							</div>
+							<div class="collapse-disc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum. tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- Two -->
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Nam vel ante sit amet libero scelerisque facilisis eleifend vitae urna</p>
+						<h2>Morbi maximus justo</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper style2">
+				<div class="inner">
+					<header class="align-center">
+						<p class="special">Nam vel ante sit amet libero scelerisque facilisis eleifend vitae urna</p>
+						<h2>Morbi maximus justo</h2>
+					</header>
+					<div class="gallery">
+						<div>
+							<div class="image fit">
+								<a id="img-1"><img src="images/pic01.jpg" alt="" /></a>
+							</div>
+						</div>
+						<div>
+							<div class="image fit">
+								<a id="img-2"><img src="images/pic02.jpg" alt="" /></a>
+							</div>
+						</div>
+						<div>
+							<div class="image fit">
+								<a id="img-3"><img src="images/pic03.jpg" alt="" /></a>
+							</div>
+						</div>
+						<div>
+							<div class="image fit">
+								<a id="img-4"><img src="images/pic04.jpg" alt="" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hidden" id="popup">
+					<img src="">
+				</div>
+				<div class="hidden" id="background"></div>
+			</section>
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. All rights reserved.
+				</div>
+			</footer>
+		<!-- Scripts -->
+		</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="js1.js"></script>
+	</body>
+</html>
