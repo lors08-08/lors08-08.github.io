@@ -1,0 +1,125 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-wrapper {
+  width: 375px;
+  margin: auto;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #FF8FA4;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  position: relative;
+  z-index: 3;
+}
+.logo {
+  margin-left: 16px;
+}
+.burger {
+  margin-right: 12px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.contacts {
+  display: flex;
+  margin-right: 24px;
+}
+.contacts div {
+  font-size: 14px;
+}
+.phone-icon {
+  margin-right: 8px;
+}
+
+.body {
+  width: 100%;
+  background-image: url("../img/Background.svg");
+  background-repeat: no-repeat;
+  padding: 80px 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+}
+.main-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #262626;
+}
+.sub-title {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+  width: 240px;
+  color: #262626;
+}
+.btn-catalog {
+  font-size: 16px;
+  font-weight: 600;
+  width: 180px;
+  height: 45px;
+  background: #DA556D;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  border: none;
+  color: #ffffff;
+  margin-top: 46px;
+}
+.btn-catalog:hover {
+  background-color: #C54058;
+}
+
+.footer {
+  margin-top: 2px;
+  color: black;
+}
+.colors-selector {
+  background: #FFFFFF;
+  border: 1px solid #FF8FA4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 180px;
+  height: 42px;
+  padding: 12px 16px;
+  font-size: 14px;
+  margin-top: 32px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.selector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.option {
+  display: none;
+}
+.option-active {
+  display: block;
+  font-size: 12px;
+  color: #6A6A6A;
+  margin-top: 13px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.option-active:hover {
+  color: #DA556D;
+}
+.colors-selector-open {
+  background: #FFFFFF;
+  border: 1px solid #FF8FA4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 180px;
+  height: 159px;
+  padding: 12px 16px;
+  font-size: 14px;
+  margin-top: 32px;
+  margin-left: 16px;
+}
